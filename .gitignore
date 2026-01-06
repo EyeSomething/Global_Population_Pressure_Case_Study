@@ -1,0 +1,25 @@
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+~*
+
+# Cache
+__pycache__/
+.cache/
