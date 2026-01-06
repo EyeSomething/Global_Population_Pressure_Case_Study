@@ -33,6 +33,7 @@ Global_Population_Pressure_Case_Study/
 │   ├── analysis_summary.md
 │   ├── data_quality_report.md
 │   └── emissions_analysis.md
+├── visualizations.ipynb            # Interactive Jupyter notebook with charts
 └── README.md
 ```
 
@@ -136,6 +137,25 @@ Resource consumption and availability data.
 
 *Additional dataset for extended analysis*
 
+## 📊 Visualizations
+
+An **interactive Jupyter notebook** with 9 comprehensive data visualizations is available in [visualizations.ipynb](visualizations.ipynb):
+
+1. **Global CO2 Emissions Trend (1970-2025)** - Line chart showing 52% increase
+2. **Energy Consumption Trajectory** - 56% growth over 55 years
+3. **Top 10 CO2 Emitters in 1970** - Bar chart rankings
+4. **Industrialization vs CO2 Scatter Plot** - Correlation analysis
+5. **Top 5 Industrialized Countries** - 1970 rankings
+6. **Policy Score vs CO2 Analysis** - Policy effectiveness gap
+7. **UV Radiation Index Leaders** - Top 5 countries
+8. **Dual Trend Analysis** - CO2 and energy comparison
+9. **Summary Statistics** - Key metrics and findings
+
+**To run the visualizations:**
+```bash
+jupyter notebook visualizations.ipynb
+```
+
 ## 🎓 Practice Questions
 
 The case study includes **15 progressive SQL questions** divided into three difficulty levels:
@@ -162,9 +182,9 @@ The case study includes **15 progressive SQL questions** divided into three diff
 
 **Example:** *Show average energy consumption per capita by year from 1960-2025*
 
-## 📈 Key Findings
+## � Datasets
 
-### Environmental Trends
+### 1. population_growth.csv
 - **CO2 Emissions:** Increased from 6.0 MT/capita (1970) to 9.13 MT/capita (2025)
 - **Peak Emissions:** 2003 at 9.16 MT/capita
 - **Recent Trend:** Slight plateau after 2010, indicating potential policy effects
